@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Data\\E-Ticaret.Data.csproj": {}
+  },
+  "projects": {
+    "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Data\\E-Ticaret.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Data\\E-Ticaret.Data.csproj",
+        "projectName": "E-Ticaret.Data",
+        "projectPath": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Data\\E-Ticaret.Data.csproj",
+        "packagesPath": "C:\\Users\\Eray\\.nuget\\packages\\",
+        "outputPath": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eray\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Models\\E-Ticaret.Models.csproj": {
+                "projectPath": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Models\\E-Ticaret.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Models\\E-Ticaret.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Models\\E-Ticaret.Models.csproj",
+        "projectName": "E-Ticaret.Models",
+        "projectPath": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Models\\E-Ticaret.Models.csproj",
+        "packagesPath": "C:\\Users\\Eray\\.nuget\\packages\\",
+        "outputPath": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eray\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

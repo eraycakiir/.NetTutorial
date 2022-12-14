@@ -1,0 +1,15 @@
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\bin\Debug\net6.0\E-Ticaret.Data.deps.json
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\bin\Debug\net6.0\E-Ticaret.Data.dll
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\bin\Debug\net6.0\E-Ticaret.Data.pdb
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\bin\Debug\net6.0\E-Ticaret.Models.dll
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\bin\Debug\net6.0\E-Ticaret.Models.pdb
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\obj\Debug\net6.0\E-Ticaret.Data.csproj.AssemblyReference.cache
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\obj\Debug\net6.0\E-Ticaret.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\obj\Debug\net6.0\E-Ticaret.Data.AssemblyInfoInputs.cache
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\obj\Debug\net6.0\E-Ticaret.Data.AssemblyInfo.cs
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\obj\Debug\net6.0\E-Ticaret.Data.csproj.CoreCompileInputs.cache
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\obj\Debug\net6.0\E-Ticaret.Data.csproj.CopyComplete
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\obj\Debug\net6.0\E-Ticaret.Data.dll
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\obj\Debug\net6.0\refint\E-Ticaret.Data.dll
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\obj\Debug\net6.0\E-Ticaret.Data.pdb
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret.Data\obj\Debug\net6.0\ref\E-Ticaret.Data.dll
