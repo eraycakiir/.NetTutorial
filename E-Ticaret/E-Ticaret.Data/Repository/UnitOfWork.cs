@@ -35,7 +35,7 @@ namespace E_Ticaret.Data.Repository
 
         public void Save()
         {
-            throw new NotImplementedException();
+            _context.SaveChanges();
         }
     }
 }

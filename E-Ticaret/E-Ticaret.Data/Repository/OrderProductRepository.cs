@@ -11,9 +11,10 @@ namespace E_Ticaret.Data.Repository
     public class OrderProductRepository : Repository<OrderProduct>, IOrderProductRepository
     {
         private ApplicationDbContext _context;
+
         public OrderProductRepository(ApplicationDbContext context) : base(context)
         {
-            private ApplicationDbContext _context;
-    }
+            _context=context;
+        }
     }
 }

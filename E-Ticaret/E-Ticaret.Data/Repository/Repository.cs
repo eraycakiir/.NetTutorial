@@ -18,6 +18,7 @@ namespace E_Ticaret.Data.Repository
         public Repository(ApplicationDbContext context)
         {
             _context= context;
+            _dbSet=context.Set<T>();
         }
         public void Add(T entity)
         {
