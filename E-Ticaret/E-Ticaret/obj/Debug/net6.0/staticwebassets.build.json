@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iQoYyjDUyo0ww4W1q3fS6JEg7Y2/3S8seVNCFrOL7oc=",
+  "Hash": "1woerih9Up+mknEw8nlDWKVASnFtzoBd/nIBWLy0jcA=",
   "Source": "E-Ticaret",
   "BasePath": "_content/E-Ticaret",
   "Mode": "Default",
@@ -1103,6 +1103,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\img\\products\\1c76be17-6be4-46c6-9721-48ec1f51ab46.png",
+      "SourceId": "E-Ticaret",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\",
+      "BasePath": "_content/E-Ticaret",
+      "RelativePath": "img/products/1c76be17-6be4-46c6-9721-48ec1f51ab46.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\1c76be17-6be4-46c6-9721-48ec1f51ab46.png"
+    },
+    {
+      "Identity": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\img\\products\\454f9c37-62db-4ee5-93fd-f3e6c632f47d.jpeg",
+      "SourceId": "E-Ticaret",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\",
+      "BasePath": "_content/E-Ticaret",
+      "RelativePath": "img/products/454f9c37-62db-4ee5-93fd-f3e6c632f47d.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\454f9c37-62db-4ee5-93fd-f3e6c632f47d.jpeg"
     },
     {
       "Identity": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\js\\site.js",

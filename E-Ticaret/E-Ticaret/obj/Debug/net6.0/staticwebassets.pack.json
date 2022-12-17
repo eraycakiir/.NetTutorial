@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\img\\products\\1c76be17-6be4-46c6-9721-48ec1f51ab46.png",
+      "PackagePath": "staticwebassets\\img\\products\\1c76be17-6be4-46c6-9721-48ec1f51ab46.png"
+    },
+    {
+      "Id": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\img\\products\\454f9c37-62db-4ee5-93fd-f3e6c632f47d.jpeg",
+      "PackagePath": "staticwebassets\\img\\products\\454f9c37-62db-4ee5-93fd-f3e6c632f47d.jpeg"
+    },
+    {
       "Id": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
