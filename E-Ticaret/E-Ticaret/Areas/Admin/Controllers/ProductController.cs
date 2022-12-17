@@ -51,10 +51,10 @@ namespace E_Ticaret.Areas.Admin.Controllers
         {
             string wwwRootPath = _hostEnvirorment.WebRootPath;
             
-            if(file== null)
+            if(file != null)
             {
                 string fileName = Guid.NewGuid().ToString();
-                var uploadRoot = Path.Combine(wwwRootPath, @"\img\products");
+                var uploadRoot = Path.Combine(wwwRootPath, @"img\products");
                 var extension = Path.GetExtension(file.FileName);
 
                 if(productVm.Product.Picture != null)
@@ -71,21 +71,8 @@ namespace E_Ticaret.Areas.Admin.Controllers
                 {
                     file.CopyTo(fileStream);
                 }
-                productVm.Product.Picture=@"\img\products"+fileName+extension; ;
+                productVm.Product.Picture=@"\img\products\"+fileName+extension; 
             }
-
-
-
-
-
-
-
-
-
-
-
-
-            
 
             if(productVm.Product.Id <=0)
             {
