@@ -21,4 +21,8 @@
     <ProjectReference Include="..\E-Ticaret.Data\E-Ticaret.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\img\products\" />
+  </ItemGroup>
+
 </Project>

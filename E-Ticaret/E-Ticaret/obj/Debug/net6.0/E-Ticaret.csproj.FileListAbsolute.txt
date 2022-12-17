@@ -281,3 +281,7 @@ D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret\bin\Debug\net6.0\E-T
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret\bin\Debug\net6.0\E-Ticaret.Models.dll
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret\bin\Debug\net6.0\E-Ticaret.Data.pdb
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret\bin\Debug\net6.0\E-Ticaret.Models.pdb
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\E-Ticaret\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

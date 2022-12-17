@@ -3,11 +3,11 @@
 <div class="container">
     <div class="row">
         <div class="col-6">
-            <h2>Category List</h2>
+            <h2>Kateogri Listesi</h2>
         </div>
         <div class="col-6">
             <a asp-controller="Category" asp-action="Create" class="btn btn-primary ">
-                <span>Add New Category</span>
+                <span>Yeni Kateogri Ekle</span>
             </a>
         </div>
     </div>
@@ -17,7 +17,7 @@
             <thead>
                 <tr>
                     <th>
-                        Category Name
+                        Kateogri Adı
                     </th>
                     <th>
 
@@ -33,11 +33,11 @@
                         <td>@category.Name</td>
                         <td>
                             <a asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id" class="btn btn-primary">
-                                Edit
+                                Güncelle
                             </a>
 
                             <a asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id" class="btn btn-danger">
-                                Delete
+                                Sil
                             </a>
 
                         </td>
