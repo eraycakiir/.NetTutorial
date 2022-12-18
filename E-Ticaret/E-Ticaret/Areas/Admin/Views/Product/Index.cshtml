@@ -7,7 +7,7 @@
         </div>
         <div class="col-6">
             <a asp-controller="Product" asp-action="Crup" class="btn btn-primary ">
-                <span>Yeni Ürün Ekle</span>
+                <span>Add New Product</span>
             </a>
         </div>
     </div>
@@ -16,13 +16,13 @@
             <thead>
                 <tr>
                     <th>
-                        Ürün Resmi
+                        Product Picture
                     </th>
                     <th>
-                        Ürün Adı
+                        Product Name
                     </th>
                      <th>
-                        Fiyat
+                        Price
                     </th>
                     <th width="150px">
                         
@@ -38,11 +38,11 @@
                         <td class="pt-4">@product.Price</td>
                         <td>
                             <a asp-controller="Product" asp-action="Crup" asp-route-id="@product.Id" class="btn btn-primary">
-                                Güncelle
+                                Edit
                             </a>
 
                              <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">
-                                Sil
+                                Delete
                             </a>
                         </td>
                     </tr>

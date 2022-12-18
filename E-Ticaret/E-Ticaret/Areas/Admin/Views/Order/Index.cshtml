@@ -2,11 +2,11 @@
 div class="container">
 <div class="row">
     <div class="col-6">
-        <h2>Ürün Listesi</h2>
+        <h2>Product List</h2>
     </div>
     <div class="col-6">
         <a asp-controller="Product" asp-action="Crup" class="btn btn-primary ">
-            <span>Yeni Ürün Ekle</span>
+            <span>Add New Product</span>
         </a>
     </div>
 </div>
@@ -15,16 +15,16 @@ div class="container">
         <thead>
             <tr>
                 <th>
-                    Sipariş Id
+                    Product Id
                 </th>
                 <th>
-                   Ad Soyad
+                   Name Lastname
                 </th>
                 <th>
-                   Fiyat
+                   Price
                 </th>
                 <th>
-                    İşlemler
+                    Transactions
                 </th>
                 <th width="150px">
 
@@ -40,11 +40,11 @@ div class="container">
                     <td class="pt-4">@orderProduct.OrderPrice</td>
                     <td>
                         <a asp-controller="Product" asp-action="Crup" asp-route-id="@orderProduct.Id" class="btn btn-primary">
-                            Güncelle
+                           Edit
                         </a>
 
-                        <a onclick="return confirm('Silmek istediğinize emin misiniz?');" asp-controller="Product" asp-action="Delete" asp-route-id="@orderProduct.Id" class="btn btn-danger">
-                            Sil
+                        <a onclick="return confirm('Are you sure you want to delete?');" asp-controller="Product" asp-action="Delete" asp-route-id="@orderProduct.Id" class="btn btn-danger">
+                           Delete
                         </a>
                     </td>
                 </tr>
