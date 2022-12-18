@@ -1,0 +1,12 @@
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\bin\Debug\net6.0\SharedTools.deps.json
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\bin\Debug\net6.0\SharedTools.dll
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\bin\Debug\net6.0\SharedTools.pdb
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\obj\Debug\net6.0\SharedTools.csproj.AssemblyReference.cache
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\obj\Debug\net6.0\SharedTools.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\obj\Debug\net6.0\SharedTools.AssemblyInfoInputs.cache
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\obj\Debug\net6.0\SharedTools.AssemblyInfo.cs
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\obj\Debug\net6.0\SharedTools.csproj.CoreCompileInputs.cache
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\obj\Debug\net6.0\SharedTools.dll
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\obj\Debug\net6.0\refint\SharedTools.dll
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\obj\Debug\net6.0\SharedTools.pdb
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticaret\SharedTools\obj\Debug\net6.0\ref\SharedTools.dll
