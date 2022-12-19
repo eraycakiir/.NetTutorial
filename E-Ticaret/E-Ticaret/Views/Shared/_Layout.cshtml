@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccesor
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -25,7 +27,16 @@
                             <a class="nav-link text-dark" asp-area="Customer" asp-controller="Home" asp-action="Index">Main Page</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Customer" asp-controller="Cart" asp-action="">Cart</a>
+                            <a class="nav-link text-dark" asp-area="Customer" asp-controller="Cart" asp-action="">Cart
+                                @if (@HttpContextAccesor.HttpContext.Session.GetInt32("SessionCartCount") != null)
+                                {
+                                    <span>(@HttpContextAccesor.HttpContext.Session.GetInt32("SessionCartCount"))</span>
+                                }
+                                else
+                                {
+                                    <span> (0)</span>
+                                }
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Customer" asp-controller="Cart" asp-action="Order">Order</a>

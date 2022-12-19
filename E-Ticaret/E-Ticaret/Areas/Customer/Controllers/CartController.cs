@@ -74,7 +74,7 @@ namespace E_Ticaret.Areas.Customer.Controllers
             CartVM.OrderProduct.DateTime=System.DateTime.Now;
             CartVM.OrderProduct.AppUserId = claim.Value;
             CartVM.OrderProduct.Name = cartVM.OrderProduct.Name;
-            CartVM.OrderProduct.CellPhone = CartVM.OrderProduct.AppUser.CellPhone;
+            CartVM.OrderProduct.CellPhone =cartVM.OrderProduct.CellPhone;
             CartVM.OrderProduct.Address = cartVM.OrderProduct.Address;
             CartVM.OrderProduct.PostalCode = cartVM.OrderProduct.PostalCode;
             CartVM.OrderProduct.OrderStatus = "Ordered";
@@ -104,6 +104,33 @@ namespace E_Ticaret.Areas.Customer.Controllers
             _unitOfWork.Save();
 
             return RedirectToAction(nameof(Index), "Home", new { area = "Customer" });
+        }
+
+
+        public IActionResult Increase (int cartId)
+        {
+            var cart = _unitOfWork.Cart.GetFirstOrDefault(c=>c.Id==cartId);
+            cart.Count += 1;
+            _unitOfWork.Save();
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult Decrease(int cartId)
+        {
+            var cart = _unitOfWork.Cart.GetFirstOrDefault(c => c.Id == cartId);
+            if (cart.Count > 1)
+            {
+                cart.Count -= 1;
+              
+            }
+            else
+            {
+                _unitOfWork.Cart.Remove(cart);
+                var cartCount = _unitOfWork.Cart.GetAll(u => u.AppUserId == cart.AppUserId).ToList().Count - 1;
+                HttpContext.Session.SetInt32("SessionCartCount", cartCount);
+            }
+            _unitOfWork.Save();
+            return RedirectToAction(nameof(Index));
         }
     }
     

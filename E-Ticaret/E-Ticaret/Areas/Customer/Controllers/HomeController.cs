@@ -38,10 +38,23 @@ namespace E_Ticaret.Areas.Customer.Controllers
             cart.AppUserId = claim.Value;
 
             Cart cartDb= _unitOfWork.Cart.GetFirstOrDefault(p=>p.AppUserId== claim.Value && p.ProductId==cart.ProductId);
-            _unitOfWork.Cart.Add(cart);
-            _unitOfWork.Save();
-            
+
+            if(cartDb==null) 
+            {
+                _unitOfWork.Cart.Add(cart);
+                _unitOfWork.Save();
+                int cartCount = _unitOfWork.Cart.GetAll(u => u.AppUserId == claim.Value).ToList().Count();
+                HttpContext.Session.SetInt32("SessionCartCount", cartCount);
+            }
+            else
+            {
+                cartDb.Count += cart.Count;
+                _unitOfWork.Save();
+            }
             return RedirectToAction("Index");
+
+        
         }
     }
 }
+
