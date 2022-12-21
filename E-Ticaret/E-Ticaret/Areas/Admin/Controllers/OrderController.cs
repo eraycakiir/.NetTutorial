@@ -19,5 +19,6 @@ namespace E_Ticaret.Areas.Admin.Controllers
             var orderList = _unitOfWork.OrderProduct.GetAll(x => x.OrderStatus != "Teslim Edildi");
             return View(orderList);
         }
+      
     }
 }

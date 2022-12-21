@@ -48,6 +48,7 @@ namespace E_Ticaret.Areas.Customer.Controllers
             CartVM.OrderProduct.Name = CartVM.OrderProduct.AppUser.FullName;
             CartVM.OrderProduct.CellPhone = CartVM.OrderProduct.AppUser.CellPhone;
             CartVM.OrderProduct.Address = CartVM.OrderProduct.AppUser.Adress;
+           
             CartVM.OrderProduct.PostalCode = CartVM.OrderProduct.AppUser.PostaCode;
             foreach (var cart in CartVM.ListCart)
             {
@@ -71,7 +72,7 @@ namespace E_Ticaret.Areas.Customer.Controllers
             };
             AppUser appUser = _unitOfWork.AppUser.GetFirstOrDefault(u => u.Id == claim.Value);
             CartVM.OrderProduct.AppUser = appUser;
-            CartVM.OrderProduct.DateTime=System.DateTime.Now;
+            CartVM.OrderProduct.DateTime= DateTime.Now;
             CartVM.OrderProduct.AppUserId = claim.Value;
             CartVM.OrderProduct.Name = cartVM.OrderProduct.Name;
             CartVM.OrderProduct.CellPhone =cartVM.OrderProduct.CellPhone;
