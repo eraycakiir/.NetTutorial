@@ -58,6 +58,9 @@ namespace e_ticket
 					name: "default",
 					pattern: "{controller=Home}/{action=Index}/{id?}");
 			});
+
+			//seed database
+			AppDbInitializer.Seed(app);
 		}
 	}
 }
