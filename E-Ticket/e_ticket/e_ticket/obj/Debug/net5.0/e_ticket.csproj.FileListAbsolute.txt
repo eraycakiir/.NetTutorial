@@ -58,8 +58,6 @@ D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\e_ticket.TagHelpers.input.cache
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\e_ticket.TagHelpers.output.cache
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\e_ticket.RazorCoreGenerate.cache
-D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
