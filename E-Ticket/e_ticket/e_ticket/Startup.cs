@@ -1,4 +1,5 @@
 using e_ticket.Data;
+using e_ticket.Data.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,9 @@ namespace e_ticket
 			//DbContext congfiguration
 			services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString
 				("DefaultConnectionString")));
+
+			//Services configuration
+			services.AddScoped<IActorService,ActorsService>();
 
 			services.AddControllersWithViews();
 		}

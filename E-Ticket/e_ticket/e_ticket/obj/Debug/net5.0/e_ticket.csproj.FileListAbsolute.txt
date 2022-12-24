@@ -76,3 +76,5 @@ D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Producers\Index.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Cinema\Index.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Actors\Create.cshtml.g.cs
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Actors\Details.cshtml.g.cs
