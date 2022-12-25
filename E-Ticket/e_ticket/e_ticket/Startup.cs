@@ -32,6 +32,7 @@ namespace e_ticket
 
 			//Services configuration
 			services.AddScoped<IActorService,ActorsService>();
+			services.AddScoped<IProducersService,ProducersService>();
 
 			services.AddControllersWithViews();
 		}
