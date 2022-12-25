@@ -74,7 +74,6 @@ D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\ref\e_ticket.dll
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Actors\Index.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Producers\Index.cshtml.g.cs
-D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Cinema\Index.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Actors\Create.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Actors\Details.cshtml.g.cs
@@ -85,3 +84,8 @@ D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Producers\Create.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Producers\Edit.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Producers\Delete.cshtml.g.cs
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Cinemas\Index.cshtml.g.cs
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Cinemas\Create.cshtml.g.cs
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Cinemas\Details.cshtml.g.cs
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Cinemas\Edit.cshtml.g.cs
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Cinemas\Delete.cshtml.g.cs
