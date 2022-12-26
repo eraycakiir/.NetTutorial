@@ -1,7 +1,10 @@
 ﻿using e_ticket.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
                                                                                                                                                   ///Adım Adım BaseRepo mantığını yazıcam ilgili scriptleri takip et;
                                                                                                                                                   // 1;IEntityBase adında bir interface açıldı
@@ -37,7 +40,14 @@ namespace e_ticket.Data.Base
         }
 
         public async Task<IEnumerable<T>> GetAllAsync() => await _context.Set<T>().ToListAsync();
-         
+
+        public async Task<IEnumerable<T>> GetAllAsync(params Expression<Func<T, object>>[] includeProperties)
+        {
+            IQueryable<T> query = _context.Set<T>();    
+            query=includeProperties.Aggregate(query,(current,includeProperties)=>current.Include(includeProperties));
+            return await query.ToListAsync();
+        }
+
         public async Task<T> GetByIdAsync(int id)   //Yukardaki yazım ile bu yazım aynı örnk olsun diye bıraktım
         {
             var result = await _context.Set<T>().FirstOrDefaultAsync(n => n.Id == id);
