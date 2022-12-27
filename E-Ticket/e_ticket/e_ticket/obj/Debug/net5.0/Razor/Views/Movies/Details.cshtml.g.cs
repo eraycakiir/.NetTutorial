@@ -29,7 +29,7 @@ using e_ticket.Models;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4578aa7bb81ac853e10d19a5901db63537262778", @"/Views/Movies/Details.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3509633a69f931e3f6a3fd6212b45ea741f97949", @"/Views/_ViewImports.cshtml")]
     #nullable restore
-    public class Views_Movies_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Movie>
+    public class Views_Movies_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<NewMovieVM>
     #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Cinemas", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -426,7 +426,7 @@ AddHtmlAttributeValue("  ", 3865, (DateTime.Now > Model.EndDate) ? "disabled" : 
         #nullable disable
         #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<Movie> Html { get; private set; } = default!;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<NewMovieVM> Html { get; private set; } = default!;
         #nullable disable
     }
 }

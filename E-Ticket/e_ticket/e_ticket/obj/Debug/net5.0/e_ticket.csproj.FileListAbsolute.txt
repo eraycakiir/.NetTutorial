@@ -91,3 +91,4 @@ D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Cinemas\Delete.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
 D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Movies\Create.cshtml.g.cs
+D:\.NetMvc\.NetMvcTutorial\.NetTutorial\E-Ticket\e_ticket\e_ticket\obj\Debug\net5.0\Razor\Views\Shared\_CreateItem.cshtml.g.cs
