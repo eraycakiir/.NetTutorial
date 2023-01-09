@@ -25,8 +25,24 @@
       "PackagePath": "staticwebassets\\img\\products\\3a17b66f-4f24-4dff-9cec-4bd195623dd8.png"
     },
     {
+      "Id": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\img\\products\\4168a121-5162-4c44-bf06-3b89bbef5c1b.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\4168a121-5162-4c44-bf06-3b89bbef5c1b.jpg"
+    },
+    {
       "Id": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\img\\products\\454f9c37-62db-4ee5-93fd-f3e6c632f47d.jpeg",
       "PackagePath": "staticwebassets\\img\\products\\454f9c37-62db-4ee5-93fd-f3e6c632f47d.jpeg"
+    },
+    {
+      "Id": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\img\\products\\715045b6-cb90-4a75-a106-bb1b03d458f1.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\715045b6-cb90-4a75-a106-bb1b03d458f1.jpg"
+    },
+    {
+      "Id": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\img\\products\\8537ff83-34e6-465c-843f-f1c6623cf322.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\8537ff83-34e6-465c-843f-f1c6623cf322.jpg"
+    },
+    {
+      "Id": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\img\\products\\b3ba6a6e-f72d-459b-92e0-cc18c2259220.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\b3ba6a6e-f72d-459b-92e0-cc18c2259220.jpg"
     },
     {
       "Id": "D:\\.NetMvc\\.NetMvcTutorial\\.NetTutorial\\E-Ticaret\\E-Ticaret\\wwwroot\\js\\site.js",
